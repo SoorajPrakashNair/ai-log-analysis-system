@@ -12,30 +12,30 @@ Flexible: Built to be extended if you want to add more log types or detection fe
 
 How to Use It
 Clone this repository:
-bash
 
+bash
+Copy
+Edit
 git clone https://github.com/your-username/nginx-log-ai-analysis.git
 cd nginx-log-ai-analysis
 (Optional) Create a Python virtual environment and activate it:
 
 bash
-
+Copy
+Edit
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 Install dependencies:
 
 bash
-
+Copy
+Edit
 pip install -r requirements.txt
 Run the analyzer on your Nginx log file:
 
 bash
-
-
+Copy
+Edit
 python main.py --logfile /path/to/nginx_access.log --format nginx
 Why This Project?
 Nginx logs are invaluable but can be overwhelming to analyze manually, especially at scale. This AI-powered tool helps you catch issues quickly by detecting anomalies and summarizing incidents — perfect for DevOps teams, sysadmins, or anyone managing web servers.
-
-Want to Contribute?
-Ideas, bug fixes, or feature requests? Please open an issue or submit a pull request — contributions are very welcome!
-
